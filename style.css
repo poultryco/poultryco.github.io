@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Source+Code+Pro&display=swap');
+
+:root {
+  --accent: #9593D9;
+  --accent-color: white;
+}
+
+#navbar {
+  top: 0%;
+  background-color: rgb(255 255 255 / 0.3);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 30px;
+  font-size: 150%;
+  padding: 10px;
+  padding-bottom: -10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  position: fixed;
+}
+
+#wordmark {
+  padding-left: 10vw;
+}
+
+#links {
+  font-size: 75% !important;
+  padding-top: 5px;
+  padding-right: 50px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+main {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#banner {
+  background-color: var(--accent);
+  margin-top: 50px;
+  height: 30px;
+  padding: 10px;
+  padding-top: 15px;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+h0 {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+#tagline {
+  font-size: 150%;
+  color: #a0a0a0;
+}
+
+.button {
+  background-color: var(--accent);
+  padding: 7px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+#promo {
+  width: 90vw;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+#construction {
+  font-size: 600%;
+}
